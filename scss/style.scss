@@ -125,7 +125,7 @@ body {
   height: 75vh;
   text-align: center;
   color: $pure-white;
-  @include heroImages("/img/palm-g99e6bd9be_640.jpg");
+  @include heroImages("img/palm-g99e6bd9be_640.jpg");
   background-attachment: scroll;
   &_heading {
     font-family: "Dancing Script", cursive;
@@ -484,7 +484,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: $blue-gradient, url(/img/palm-g6b1264dd8_1920.jpg);
+    background-image: $blue-gradient, url('img/palm-g6b1264dd8_1920.jpg');
     &_heading {
       font-size: 10rem;
     }
