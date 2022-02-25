@@ -356,7 +356,11 @@ body {
 // =======================================
 // section rewievs
 // =======================================
-
+@media (max-width: 769px) {
+  .reviews .section-padding {
+    padding: 6em 0;
+  }
+}
 .reviews {
   &_box {
     position: relative;
@@ -364,6 +368,10 @@ body {
     padding: 2em;
     border-radius: 8px;
     box-shadow: 3px 3px 10px #2e2e2e;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(0.95);
+    }
     &-img {
       position: absolute;
       top: 8%;
@@ -380,6 +388,11 @@ body {
       margin-bottom: 1em;
       font-size: 3rem;
       color: $main-color;
+    }
+    &_box-text {
+      margin-bottom: 1em;
+      font-size: 1.4rem;
+      color: $dark;
     }
   }
 }
@@ -484,7 +497,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: $blue-gradient, url('../img/palm-g6b1264dd8_1920.jpg');
+    background-image: $blue-gradient, url("../img/palm-g6b1264dd8_1920.jpg");
     &_heading {
       font-size: 10rem;
     }
