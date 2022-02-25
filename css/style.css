@@ -12,14 +12,14 @@
 }
 
 .white-block-left {
-  bottom: 0;
+  bottom: -1px;
   left: -50px;
   -webkit-transform: skew(45deg);
           transform: skew(45deg);
 }
 
 .white-block-right {
-  top: -0px;
+  top: 0px;
   right: -50px;
   -webkit-transform: skew(45deg);
           transform: skew(45deg);
@@ -271,7 +271,7 @@ body {
   height: 75vh;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("/img/palm-g99e6bd9be_640.jpg");
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/palm-g99e6bd9be_640.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -693,7 +693,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url(/img/palm-g6b1264dd8_1920.jpg);
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/palm-g6b1264dd8_1920.jpg");
   }
   .header_heading {
     font-size: 10rem;
